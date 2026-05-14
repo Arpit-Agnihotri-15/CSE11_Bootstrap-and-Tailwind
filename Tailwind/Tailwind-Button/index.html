@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Buttons Showcase</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-10">
+
+    <!-- Heading -->
+    <h1 class="text-4xl font-bold text-center mb-10 text-blue-700">
+        Tailwind CSS Button Concepts
+    </h1>
+
+    <!-- Basic Buttons -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">1. Basic Buttons</h2>
+
+        <div class="flex flex-wrap gap-4">
+
+            <button class="px-4 py-2 bg-blue-500 text-white rounded">
+                Primary
+            </button>
+
+            <button class="px-4 py-2 bg-green-500 text-white rounded">
+                Success
+            </button>
+
+            <button class="px-4 py-2 bg-red-500 text-white rounded">
+                Danger
+            </button>
+
+            <button class="px-4 py-2 bg-yellow-500 text-black rounded">
+                Warning
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Hover Effects -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">2. Hover Effects</h2>
+
+        <div class="flex flex-wrap gap-4">
+
+            <button class="px-5 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-300">
+                Hover Me
+            </button>
+
+            <button class="px-5 py-2 bg-green-500 text-white rounded hover:scale-110 transition duration-300">
+                Scale Hover
+            </button>
+
+            <button class="px-5 py-2 bg-purple-500 text-white rounded hover:rotate-3 transition duration-300">
+                Rotate Hover
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Button Sizes -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">3. Button Sizes</h2>
+
+        <div class="flex items-center gap-4 flex-wrap">
+
+            <button class="px-2 py-1 text-sm bg-blue-500 text-white rounded">
+                Small
+            </button>
+
+            <button class="px-4 py-2 bg-blue-500 text-white rounded">
+                Medium
+            </button>
+
+            <button class="px-8 py-4 text-xl bg-blue-500 text-white rounded">
+                Large
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Rounded Buttons -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">4. Rounded Buttons</h2>
+
+        <div class="flex flex-wrap gap-4">
+
+            <button class="px-5 py-2 bg-pink-500 text-white rounded-sm">
+                Small Radius
+            </button>
+
+            <button class="px-5 py-2 bg-pink-500 text-white rounded-lg">
+                Large Radius
+            </button>
+
+            <button class="px-5 py-2 bg-pink-500 text-white rounded-full">
+                Pill Button
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Outline Buttons -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">5. Outline Buttons</h2>
+
+        <div class="flex flex-wrap gap-4">
+
+            <button class="px-5 py-2 border-2 border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition">
+                Outline Blue
+            </button>
+
+            <button class="px-5 py-2 border-2 border-red-500 text-red-500 rounded hover:bg-red-500 hover:text-white transition">
+                Outline Red
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Shadow Buttons -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">6. Shadow Buttons</h2>
+
+        <div class="flex flex-wrap gap-4">
+
+            <button class="px-5 py-2 bg-indigo-500 text-white rounded shadow-lg hover:shadow-2xl transition">
+                Shadow Button
+            </button>
+
+            <button class="px-5 py-2 bg-gray-800 text-white rounded shadow-md">
+                Dark Shadow
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Gradient Buttons -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">7. Gradient Buttons</h2>
+
+        <div class="flex flex-wrap gap-4">
+
+            <button class="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg">
+                Gradient
+            </button>
+
+            <button class="px-6 py-3 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg">
+                Cool Gradient
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Disabled Buttons -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">8. Disabled Buttons</h2>
+
+        <div class="flex flex-wrap gap-4">
+
+            <button class="px-5 py-2 bg-gray-400 text-white rounded cursor-not-allowed" disabled>
+                Disabled
+            </button>
+
+            <button class="px-5 py-2 bg-blue-300 text-white rounded opacity-50" disabled>
+                Opacity Disabled
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Responsive Buttons -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">9. Responsive Buttons</h2>
+
+        <button class="px-4 py-2 text-sm sm:text-base md:text-lg lg:text-xl bg-teal-500 text-white rounded-lg">
+            Responsive Button
+        </button>
+    </section>
+
+    <!-- Full Width Button -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">10. Full Width Button</h2>
+
+        <button class="w-full py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-700 transition">
+            Full Width Button
+        </button>
+    </section>
+
+</body>
+</html>
